@@ -38,5 +38,12 @@ pipeline
                 echo "This is Stage Five"
             }
         }
+        stage("Test Stage")
+        {
+            steps
+            {
+                echo "This is the Test Stage"
+            }
+        }
     }
 }
