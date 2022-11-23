@@ -42,7 +42,7 @@ pipeline
         {
             steps
             {
-                echo "This is the Test Stage"
+                echo "This is the Test Phase"
             }
         }
     }
