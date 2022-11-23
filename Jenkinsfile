@@ -24,5 +24,19 @@ pipeline
                 echo "This is Stage Three"
             }
         }
+        stage("Stage Four")
+        {
+            steps
+            {
+                echo "This is Stage Four"
+            }
+        }
+        stage("Stage Five")
+        {
+            steps
+            {
+                echo "This is Stage Five"
+            }
+        }
     }
 }
